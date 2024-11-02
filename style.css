@@ -162,12 +162,23 @@ h3{
     text-align: center;
     box-shadow: 2px 2px 5px lightgray;
 }
+.fe_box:nth-child(1) p{
+    background-color: aquamarine;
+}
+.fe_box:nth-child(2) p{
+    background-color: rgb(236, 224, 94);
+}
+.fe_box:nth-child(3) p{
+    background-color: rgb(240, 143, 143);
+}
+.fe_box:nth-child(4) p{
+    background-color: rgb(112, 211, 233);
+}
 .fe_box img{
     padding-top: 20px;
 }
 
 .fe_box p{
-    background-color: aquamarine;
     padding:2px 10px;
     font-weight: 700;
     margin-top: 70px;
@@ -197,7 +208,7 @@ h3{
     display:flex;
     justify-content: space-between;
     width:1200px;
-    margin:20px auto;
+    margin:30px auto;
     box-sizing: border-box;
     gap:10px;
 }
@@ -209,7 +220,39 @@ h3{
     text-align: left;
     padding:20px 15px;
     box-shadow: 2px 2px 5px lightgray;
+    position: relative;
 }
+
+.tag .product_price::after{
+    content:'NEW ARRIVAL';
+    font-size:10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: rgba(234, 184, 20, 0.667);
+    width:100px;
+    padding:5px 15px;
+    border-radius: 14px;
+    position: absolute;
+    top:20px;
+    left:-40px;
+    transform: rotate(-45deg);
+}
+
+.left_tag .product_price::after{
+    content:'1 MORE LEFT';
+    font-size:10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: rgba(27, 189, 225, 0.676);
+    width:100px;
+    padding:5px 15px;
+    border-radius: 14px;
+    position: absolute;
+    top:20px;
+    left:-40px;
+    transform: rotate(-45deg);
+}
+
 
 .product_card img{
     width:100%;
@@ -221,6 +264,22 @@ h3{
     align-items: center;
     justify-content: space-between;
 }
+
+.cart{
+    position: relative;
+}
+
+.cart::after{
+    content: '';
+    padding:15px 15px;
+    border-radius: 50%;
+    background-color: rgba(127, 255, 212, 0.463);
+    position:absolute;
+    top:-5px;
+    left:-5px;
+}
+
+
 /* ------------------------------------------------- */
 .repair{
     width:1200px;
