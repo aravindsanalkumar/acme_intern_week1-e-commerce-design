@@ -12,8 +12,11 @@ h3{
     padding:0;
 }
 
-.header{
+.width{
     width:1200px;
+}
+
+.header{
     height:120px;
     border-bottom:1px solid #ced4da;
     margin:2px auto;
@@ -88,7 +91,6 @@ h3{
 }
 
 .hero{
-    width:1200px;
     margin:1px auto;
     position:relative;
 }
@@ -146,7 +148,6 @@ h3{
 /* ------------------------------------------------- */
 
 .features{
-    width:1200px;
     margin:50px auto;
     display: flex;
     justify-content: space-between;
@@ -189,7 +190,6 @@ h3{
 
 /* ------------------------------------------------- */
 .products{
-    width:1200px;
     text-align: center;
     margin:20px auto;
     background-color: #ffe3e3;
@@ -210,7 +210,6 @@ h3{
 .products_row{
     display:flex;
     justify-content: space-between;
-    width:1200px;
     margin:30px auto;
     box-sizing: border-box;
     gap:10px;
@@ -285,7 +284,6 @@ h3{
 
 /* ------------------------------------------------- */
 .repair{
-    width:1200px;
     text-align: center;
     margin:5px auto;
     padding:20px 5px;
@@ -317,7 +315,6 @@ h3{
 }
 /* ------------------------------------------------- */
 .poster{
-    width:1200px;
     margin:50px auto;
     display:flex;
     justify-content: space-between;
@@ -366,7 +363,6 @@ h3{
 /* ------------------------------------------------- */
 .newsletter{
     margin:1px auto;
-    width:1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -398,7 +394,6 @@ h3{
 
 /* ------------------------------------------------- */
 .footer{
-    width:1200px;
     height:200px;
     margin:5px auto;
     padding:10px;
